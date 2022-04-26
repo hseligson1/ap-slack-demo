@@ -3,5 +3,4 @@ kind: Kustomization
 resources:
 - github.com/argoproj-labs/argocd-autopilot/examples/demo-app/
 
-annotations:
-  notifications.argoproj.io/subscribe.on-sync-succeeded.slack: my_channel
+
